@@ -23,13 +23,7 @@ function dec(n) {
 }
 
 function makeInt(n) {
-  if (parseInt(n,10)) {
-    return parseInt(n);
-  } else if (parseInt(n, 10)) {
-    return parseInt(n, 10);
-  } else if (parseInt('n',10)) {
-    return parseInt(n);
-  }
+  return parseInt(n, 10)
 }
 
 function preserveDecimal(n) {
